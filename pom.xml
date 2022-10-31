@@ -5,7 +5,7 @@
   <groupId>com.hcl</groupId>
   <artifactId>safeway</artifactId>
   <version>1.0-SNAPSHOT</version>
-  <packaging>jar</packaging>
+  <packaging>war</packaging>
 
   <name>safeway</name>
   <url>http://maven.apache.org</url>
