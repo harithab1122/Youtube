@@ -38,4 +38,6 @@
   </configuration>
 </plugin> 
 </plugins>
+    </pluginmanagement>
+  </build>
 </project>
