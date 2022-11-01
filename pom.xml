@@ -24,7 +24,6 @@
       <scope>test</scope>
     </dependency>
   </dependencies>
-<pluginmanagement>
 <plugins>
 <plugin>
   <groupId>org.apache.tomcat.maven</groupId>
@@ -36,5 +35,4 @@
   </configuration>
 </plugin>
 </plugins>
-</pluginmanagement>
 </project>
