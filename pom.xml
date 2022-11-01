@@ -5,7 +5,7 @@
   <groupId>com.hcl</groupId>
   <artifactId>safeway</artifactId>
   <version>1.0-SNAPSHOT</version>
-  <packaging>jar</packaging>
+  <packaging>war</packaging>
 
   <name>safeway</name>
   <url>http://maven.apache.org</url>
@@ -24,4 +24,17 @@
       <scope>test</scope>
     </dependency>
   </dependencies>
+<pluginmanagement>
+<plugins>
+<plugin>
+  <groupId>org.apache.tomcat.maven</groupId>
+  <artifactId>tomcat10-maven-plugin</artifactId>
+  <version>2.0</version>
+  <configuration>
+    <url>http://localhost:8090/manager</url>
+    <path>/rps</path>
+  </configuration>
+</plugin>
+</plugins>
+</pluginmanagement>
 </project>
