@@ -1,6 +1,7 @@
 node {
   stage ('hi') {
-    echo 'hi how are you'
+    docker {
+      image 'node:16.13.1-alpine'
   }
 }
     
