@@ -1,6 +1,6 @@
 node {
   stage ('hi') {
-   echo 'hello Haritha!'
-    {
+   echo 'hello Haritha'
+  }
 }
     
