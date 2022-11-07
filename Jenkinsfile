@@ -1,8 +1,8 @@
-<!-- node {
+/* node {
   stage ('hi') {
    echo 'hello Haritha'
   }
-} -->
+} */
   
   pipeline {
     agent {
