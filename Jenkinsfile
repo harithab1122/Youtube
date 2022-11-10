@@ -5,14 +5,14 @@
 } */
   
   pipeline {
-    agent any
-    options {
-       skipStagesAfterUnstable()
+    agent {
+      docker { image 'node16:alpine }
+       
     }
       stages {
         stage('Build') { 
             steps { 
-                sh 'make' 
+                sh 'node --version' 
               
             }
         }
